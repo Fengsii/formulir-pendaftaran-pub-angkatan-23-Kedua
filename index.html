@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Fomulir Pendaftaran PUB</title>
+</head>
+<body>
+   <div class="cointainer">
+      <form action="#">
+         <h1>formulir pendaftaran  pub angkatan 23</h1>
+         <fieldset>
+            <legend>identitas</legend>
+            <div class="inputan-box">
+               <label for="nama">Nama Lengkap</label>
+               <input type="text" placeholder="Nama lengkap" name="nama">
+            </div>
+            <div class="jenis-kelamin">
+               <label for="jenis">Jenis Kelamin</label>
+               <div class="gender">
+                  <div class="lakii">
+                     <input type="radio" name="jenis" id="laki-laki">
+                     <label for="laki">laki-laki</label>
+                  </div>
+                  <div class="wanita">
+                     <input type="radio" name="jenis" id="perempuan">
+                     <label for="perempuan">perempuan</label>
+                  </div>
+               </div>
+            </div>
+            <div class="inputan-box">
+               <label for="lahir">Tanggal Lahir</label>
+               <input type="datetime" placeholder="Tanggal lahir" name="lahir">
+            </div>
+            <div class="inputan-box">
+               <label for="agama">Agama</label>
+               <input type="text" placeholder="Agama" name="agama">
+            </div>
+            <div class="inputan-box">
+               <label for="alamat">Alamat</label>
+               <input type="text" placeholder="Alamat" name="alamat" class="alamat">
+            </div>
+            <div class="inputan-box">
+               <label for="wa">No.wa aktif</label>
+               <input type="tel" placeholder="Nomor wa" name="wa">
+            </div>
+            <div class="inputan-box">
+               <label for="email">Email</label>
+               <input type="email" placeholder="Email" name="email">
+            </div>
+            <div class="inputan-box">
+               <label for="sekolah">Asal Sekolah</label>
+               <input type="text" placeholder="Asal sekolah" name="sekolah">
+            </div>
+            <div class="inputan-box">
+               <label for="jurusan">Jurusan</label>
+               <select name="jurusan" id="jurusan">
+                  <option value="pilih">Pilih Jurusan</option>
+                  <option value="tkj">Teknik Komputer dan Jaringan</option>
+                  <option value="akn">Akuntansi</option>
+                  <option value="ipa">Ipa</option>
+                  <option value="ips">Ips</option>
+               </select>
+            </div>
+            <div class="inputan-box">
+               <label for="warna">Warna Mata</label>
+               <input type="color" name="warna">
+            </div>
+            <div class="my-hoby">
+               <label for="hobi">Hobbi</label>
+               <div class="isi">
+                  <div class="baca">
+                     <input type="checkbox" name="membaca">
+                     <label for="membaca">Membaca</label>
+                  </div>
+                  <div class="nulis">
+                     <input type="checkbox" name="menulis">
+                     <label for="menulis">Menulis</label>
+                  </div>
+                  <div class="ding">
+                     <input type="checkbox" name="ngoding">
+                     <label for="ngoding">Mengoding</label>
+                  </div>
+               </div>  
+            </div>
+         </fieldset>
+      </form>
+   </div>
+</body>
+</html>

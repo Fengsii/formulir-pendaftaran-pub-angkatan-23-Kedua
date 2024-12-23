@@ -1,0 +1,235 @@
+
+.kepala {
+   display: flex;
+   justify-content: space-between;
+   padding: 15px;
+   background-image: url(https://www.gotravelly.com/blog/wp-content/uploads/2020/12/gunung-bromo.jpg);
+   background-size: 150px;
+}
+
+
+img {
+   width: 40px;
+   border-radius: 50px; 
+}
+
+.pertama {
+   display: flex;
+   list-style: none;
+   gap: 10px;
+   align-items: center;
+}
+
+.kedua {
+   display: flex;
+   align-items: center;
+   list-style: none;
+   gap: 20px;
+}
+
+
+.bar-one {
+   display: flex;
+   list-style: none;
+   align-items: center;
+   gap: 5px;
+}
+
+.bar-two {
+   display: flex;
+   list-style: none;
+   align-items: center;
+   gap: 5px;
+}
+
+.tool-bar {
+   display: flex;
+   gap: 15px;
+   padding: 15px;
+}
+
+.kotak {
+   border: 1px solid black;
+   width: 250px;
+   border-radius: 5px;
+}
+
+.bawah {
+   margin-top: 120px;
+   border: 1px solid black;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+}
+
+.tool-bottom {
+   display: flex;
+   justify-content: right;
+   list-style: none;
+   margin-right: 15px;
+   gap: 15px;
+   padding: 15px;
+}
+
+.blok1 {
+   /* border: 1px solid red; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* background-image: url(pngtree-aesthetic-night-sky.jpg);
+   background-size: 150px; */
+   background-color: rgb(41, 59, 76);
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   padding: 10px;
+   background-image: url(https://student-activity.binus.ac.id/himmat/wp-content/uploads/sites/14/2021/09/Banner-Ricky.jpg);
+   background-size: 230px;
+}
+
+.teks1 {
+   color: rgb(208, 222, 11);
+   font: bold;
+}
+
+
+.blok2 {
+   /* border: 1px solid red; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* background-image: url(pngtree-aesthetic-night-sky.jpg);
+   background-size: 150px; */
+   background-color: rgb(41, 59, 76);
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   padding: 10px;
+   /* background-image: url(https://student-activity.binus.ac.id/himmat/wp-content/uploads/sites/14/2021/09/Banner-Ricky.jpg); */
+   background-size: 250px;
+}
+
+.blok3 {
+   /* border: 1px solid red; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* background-image: url(pngtree-aesthetic-night-sky.jpg);
+   background-size: 150px; */
+   background-color: rgb(41, 59, 76);
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   padding: 10px;
+   /* background-image: url(https://student-activity.binus.ac.id/himmat/wp-content/uploads/sites/14/2021/09/Banner-Ricky.jpg); */
+   background-size: 250px;
+}
+
+.blok4 {
+   /* border: 1px solid red; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* background-image: url(pngtree-aesthetic-night-sky.jpg);
+   background-size: 150px; */
+   background-color: rgb(41, 59, 76);
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   padding: 10px;
+   /* background-image: url(https://student-activity.binus.ac.id/himmat/wp-content/uploads/sites/14/2021/09/Banner-Ricky.jpg); */
+   background-size: 250px;
+}
+
+.blok5 {
+   /* border: 1px solid red; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* background-image: url(pngtree-aesthetic-night-sky.jpg);
+   background-size: 150px; */
+   background-color: rgb(41, 59, 76);
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   padding: 10px;
+   /* background-image: url(https://student-activity.binus.ac.id/himmat/wp-content/uploads/sites/14/2021/09/Banner-Ricky.jpg); */
+   background-size: 250px;
+}
+
+.blok6 {
+   /* border: 1px solid red; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* background-image: url(pngtree-aesthetic-night-sky.jpg);
+   background-size: 150px; */
+   background-color: rgb(41, 59, 76);
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   padding: 10px;
+   /* background-image: url(https://student-activity.binus.ac.id/himmat/wp-content/uploads/sites/14/2021/09/Banner-Ricky.jpg); */
+   background-size: 250px;
+}
+
+.blok7 {
+   /* border: 1px solid red; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* background-image: url(pngtree-aesthetic-night-sky.jpg);
+   background-size: 150px; */
+   background-color: rgb(41, 59, 76);
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   padding: 10px;
+   /* background-image: url(https://student-activity.binus.ac.id/himmat/wp-content/uploads/sites/14/2021/09/Banner-Ricky.jpg); */
+   background-size: 250px;
+}
+
+.blok8 {
+   /* border: 1px solid red; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* background-image: url(pngtree-aesthetic-night-sky.jpg);
+   background-size: 150px; */
+   background-color: rgb(41, 59, 76);
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   padding: 10px;
+   /* background-image: url(https://student-activity.binus.ac.id/himmat/wp-content/uploads/sites/14/2021/09/Banner-Ricky.jpg); */
+   background-size: 250px;
+}
+
+.prof img{
+  float: right;
+  margin-right: 20px;
+  position: relative;
+  bottom: 48px;
+  width: 70px;
+  border-radius: 50px;
+}
+
+
+.menu {
+   display: flex;
+   justify-content: space-evenly;
+   padding: 15px;
+}
+
+.menu-one {
+   display: flex;
+   justify-content: space-evenly;
+   padding: 15px;
+}
+
+h1 {
+   text-transform: capitalize;
+}
+
+h3 {
+   text-transform: capitalize;
+}
+
+h4 {
+   text-transform: capitalize;
+}
+
+h5 {
+   text-transform: capitalize;
+}
